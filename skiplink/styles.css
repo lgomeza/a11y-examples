@@ -35,3 +35,18 @@ header ul li a {
 header ul li a:hover {
   border-bottom: 1px solid #333;
 }
+
+.skip-link {
+  position: absolute;
+  left: -999px;
+  width: 1px;
+  height: 1px;
+  top: auto;
+}
+.skip-link:focus {
+  color: black;
+  height: auto;
+  width: auto;
+  position: sticky;
+  margin: auto;
+}
